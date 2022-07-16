@@ -2,25 +2,54 @@ body{
     font-family: serif;
 }
 
-.block{
-    width: 30%;
-    height: 100%;
+.sec{
+    width: 20%;
+    height: 970px;
     background-color: rgb(187, 187, 235);
     margin-left: -10px;
     margin-top: -10px;
 }
 .t1{
     color:black;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 .info{
-    margin-left: 120px;
+    margin-left: 70px;
+    position: relative;
+    font-size: 35px;
+}
+.info:before {
+    content: '';
+    width: 350px;
+    height: 3px;
+    position: absolute;
+    background-color:white;
+    top: 40px;
+    left: -58px;
 }
 
 b{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 span{
-    font-size: 25px;
+    font-size: 20px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+}
+ul{
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.nazva{
+    float: left;
+    font-weight: 600;
+}
+.lang{
+    margin-left: 150px;
+    font-weight: 600;
 }
