@@ -6,12 +6,13 @@ body{
 
 .sec{
     width: 20%;
-    height: 970px;
+    height: 100%;
     background-color: rgb(187, 187, 235);
     margin-left: -10px;
     margin-top: -10px;
     float: left;
     margin-right: 50px;
+    overflow: hidden;
 }
 .t1{
     color:black;
@@ -81,8 +82,17 @@ h2:before {
     
 }
 span.text{
-   font-size: 22px;
+   font-size: 20px;
    font-weight: 300;
    font-family: 'Roboto', sans-serif;
 
+}
+b.work{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+b.work_info{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
 }
