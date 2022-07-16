@@ -1,3 +1,5 @@
+
+
 body{
     font-family: serif;
 }
@@ -8,6 +10,8 @@ body{
     background-color: rgb(187, 187, 235);
     margin-left: -10px;
     margin-top: -10px;
+    float: left;
+    margin-right: 50px;
 }
 .t1{
     color:black;
@@ -52,4 +56,33 @@ ul{
 .lang{
     margin-left: 150px;
     font-weight: 600;
+}
+.t2{
+   width: 95%;
+}
+h2{
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 20px;
+    margin-left: 400px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    padding: 50px 0px 50px 20px;
+}
+h2:before {
+    content: '';
+    width: 1500px;
+    height: 1px;
+    position: absolute;
+    background-color: #dbd8d8;
+    top: 125px;
+    left: -14px;
+    border: 2px;
+    
+}
+span.text{
+   font-size: 22px;
+   font-weight: 300;
+   font-family: 'Roboto', sans-serif;
+
 }
