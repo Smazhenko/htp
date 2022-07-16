@@ -68,7 +68,7 @@ h2{
     margin-left: 400px;
     font-family: 'Roboto', sans-serif;
     position: relative;
-    padding: 50px 0px 50px 20px;
+    padding: 50px 0px 10px 20px;
 }
 h2:before {
     content: '';
@@ -76,7 +76,7 @@ h2:before {
     height: 1px;
     position: absolute;
     background-color: #dbd8d8;
-    top: 125px;
+    top: 95px;
     left: -14px;
     border: 2px;
     
@@ -95,4 +95,22 @@ b.work_info{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 20px;
+    margin-left: 20px;
+}
+span.work_data{
+    font-family: monospace;
+    font-size: 18px;
+}
+button{
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-family: serif;
+    font-size: 35px;
+    background-color: rgb(187, 187, 235);
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
 }
